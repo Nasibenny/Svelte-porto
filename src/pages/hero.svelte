@@ -1,4 +1,4 @@
-<div class="p-10 ">
+<div class="py-15 ">
     <!-- <div class="mask-no-repeat mask-[url(poto.jpg)] mask-size-[50px_50px] bg-[url(poto.jpg)]"></div> -->
     <div class="flex flex-col items-center " >
         <img src="poto.jpg" class="w-40 h-40 object-cover rounded-full object-[0%_20%]"       alt="">

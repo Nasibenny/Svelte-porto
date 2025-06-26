@@ -3,9 +3,10 @@
   import "../app.css";
   import Header from "../component/header.svelte";
   import Footer from "../component/footer.svelte";
+  
 </script>
 <!-- {@render children()} -->
-<div class="relative flex flex-col  mx-auto max-w-[1400px] w-full min-h-screen "> 
+<div class="relative flex flex-col w-full min-h-screen  no-scrollbar  custom-scroll "> 
   <div class="">
     <Header />
   </div>
