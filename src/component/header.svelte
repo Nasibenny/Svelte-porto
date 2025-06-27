@@ -1,23 +1,12 @@
 <script>
   import Button from "$lib/button.svelte";
-   export let buts;
+
    export let y;
-   let tabs = [
-       { name  : "Home",
-         link  : "#home",   
-       },
-       {
-         name  : "About",
-         link  : "#about",
-       },
-       {
-         name  : "Project",
-         link  : "#project",
-       },
-   ];
+   export let tabs = [];
+   
    
 </script>
-<header class={'sticky z-[10]  top-0 duration-200 px-6 flex items-center justify-center border border-solid ' +
+<header class= {'sticky z-[10]  top-0 duration-200 px-6 flex items-center justify-center border border-solid ' +
 (y > 0 ? 'py-4 bg-slate-950 border-blue-600' : 'py-7 bg-transparent border-transparent ')}>
    
    <div class="w-1/3 "></div>

@@ -1,16 +1,16 @@
 <div class="py-15 ">
     <!-- <div class="mask-no-repeat mask-[url(poto.jpg)] mask-size-[50px_50px] bg-[url(poto.jpg)]"></div> -->
     <div class="flex flex-col items-center " >
-        <img src="poto.jpg" class="w-40 h-40 object-cover rounded-full object-[0%_20%]"       alt="">
+        <img src="poto.jpg" class="w-45 h-45 object-cover rounded-full object-[0%_20%]"       alt="">
         <h2 class="mt-6 text-2xl ">Benny Darmawan</h2>
         <h4 class=" mt-1 f-h4 text-xl">Web Developer</h4>
     </div>
    
-    <div class="flex flex-col  mt-5 text-sm">
+    <div class="flex flex-col mt-5 ">
      
-        <div class="flex flex-col mt-3 text-center  max-w-[22.3cm] mx-auto leading-relaxed"   >
+        <div class="flex flex-col mt-2 text-center  max-w-[25.5cm] mx-auto leading-relaxed"   >
            
-            <p class="f-h4 text-justify" >
+            <p class="f-h4 text-md text-justify" >
                 
                 I’m a Balinese man, Lived in Denpasar city. I was born in
                 Denpasar, On 18th December 2005. 

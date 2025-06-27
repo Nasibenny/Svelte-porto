@@ -7,34 +7,39 @@
     import Carddo from "$lib/card_text.svelte"; 
     import CardProject from "$lib/card-project.svelte"; 
     import Cardabout from "$lib/card_about.svelte";
+    import Header from "../component/header.svelte";
   import { getLinkColor } from "tsparticles-engine";
 
-
+ 
    
     let projects = [
       {
         foto :"juice.png",
         name : "Little Oasis Juicery",
         mode : "Wordpress",
+        status : "Private",
         link : "",
       },
       {
         foto :"luna.png",
         name : "Luna Coffee",
         mode : "Wordpress",
+        status : "Visit",
         link : "https://lunacafe.codekraf.com/",
       },
       {
         foto :"londre.png",
         name : "Laundry Pesisir",
         mode : "PHP, Tailwind, Javascript",
+        status : "Private",
         link : "",
       },
       {
         foto :"infi.png",
         name : "Infinity",
         mode : "Maintenance",
-        link : "",
+        status : "Visit",
+        link : "https://infinityprogress.id/",
       },
       
     ];
@@ -97,12 +102,15 @@
     ];
 </script>
 
+<div id="home">
+</div>
 <Hero/>
+<div class="flex">
+  <Button text="Hire Me" className="text-lg px-10 py-1.5 text-black" href="https://www.linkedin.com/in/benny-darmawan-a8a92229a/"/>
+</div>
 
-<Button text="Hire Me" className="text-lg px-8 py-1.5 text-black" href=""/>
 
-
-<div class="mt-40">
+<div id="about" class="mt-40">
   <About />
   <div class="grid grid-cols-4 gap-9 mx-auto w-[22cm] px-3 py-5 " >
     
@@ -116,9 +124,9 @@
     <Carddo {does} />
   </div>
 
-<div class="bg-gray-900 mt-40 ">
+<div id="project" class="bg-gray-900 mt-40   rounded-t-[60px]  ">
   <Project/>       
-  <div class=" grid grid-cols-2  mx-auto   w-[23cm]   px-3 pb-60 ">
+  <div class=" grid grid-cols-2     px-30 pb-60 ">
     <CardProject {projects}/>
   </div>
 </div>

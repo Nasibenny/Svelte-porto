@@ -26,14 +26,17 @@
         <h4 class="  f-h4 text-center text-sm">© 2025 — Copyright
             All Rights reserved</h4>
         
-        <div class="flex flex-row gap-10 justify-center">
-            
-            {#each socials as social}
-             <!-- content here -->
-            <img src={social.icon} class="w-10 cursor-pointer" alt="">
-              
-            {/each}
-
+        <div class="flex flex-row gap-10 justify-center" >
+          
+          {#each socials as social}
+          <!-- content here -->
+          <a href={social.link}>
+            <img  src={social.icon} class="w-10 cursor-pointer" alt="">
+          </a>
+          
+          {/each}
+          
+    
         </div>
     </div>
 </div>
