@@ -8,7 +8,7 @@
     import CardProject from "$lib/card-project.svelte"; 
     import Cardabout from "$lib/card_about.svelte";
     import Header from "../component/header.svelte";
-  import { getLinkColor } from "tsparticles-engine";
+  // import { getLinkColor } from "tsparticles-engine";
 
  
    
